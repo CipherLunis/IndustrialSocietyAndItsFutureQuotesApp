@@ -6,17 +6,21 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 struct ContentView: View {
     
     @Binding var sentenceList: [String]
     @Binding var quoteIndex: Int
+    @AppStorage("quote", store: UserDefaults(suiteName: "group.com.cipherlunis.IndustrialSocietyAndItsFutureQuotes.IndustrialSocietyAndItsFutureAppWidget")) var quote: String = ""
     
     let isIPad = UIDevice.current.userInterfaceIdiom == .pad
     
     init(sentenceList: Binding<[String]>, quoteIndex: Binding<Int>) {
         self._sentenceList = sentenceList
         self._quoteIndex = .constant(Int.random(in: 0...sentenceList.count))
+        self.quote = _sentenceList[_quoteIndex.wrappedValue].wrappedValue//"Test"//_sentenceList[_quoteIndex]
+        //self.quote = sentenceList[quoteIndex] as? String
     }
     
     var body: some View {
@@ -26,7 +30,8 @@ struct ContentView: View {
                     .resizable()
                     .ignoresSafeArea()
                 VStack {
-                    Text("\"\(sentenceList[quoteIndex])\"")
+                    Text("\"\(quote)\"")
+//                    Text("\"\(sentenceList[quoteIndex])\"")
                         .fontWeight(.bold)
                         .foregroundColor(.black)
                         .font(.system(size: isIPad ? 80 : 60))
@@ -38,6 +43,7 @@ struct ContentView: View {
                     Spacer()
                     Button {
                         quoteIndex = Int.random(in: 0...sentenceList.count)
+                        WidgetCenter.shared.reloadTimelines(ofKind: "widgetextension")
                     } label: {
                         Text("New Quote")
                             .foregroundColor(.white)

@@ -3,6 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>com.apple.security.application-groups</key>
-	<array/>
+	<array>
+		<string>group.com.cipherlunnis.ssasas</string>
+		<string>group.com.cipherlunis.IndustrialSocietyAndItsFutureQuotes.IndustrialSocietyAndItsFutureAppWidget</string>
+	</array>
 </dict>
 </plist>

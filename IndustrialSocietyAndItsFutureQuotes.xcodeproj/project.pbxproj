@@ -66,7 +66,6 @@
 		F8627DC92B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = IndustrialSocietyAndItsFutureAppWidget.intentdefinition; sourceTree = "<group>"; };
 		F8627DCA2B4123AD0069C736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8627DCC2B4123AD0069C736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8627DD62B4123F40069C736 /* IndustrialSocietyAndItsFutureAppWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IndustrialSocietyAndItsFutureAppWidgetExtension.entitlements; sourceTree = "<group>"; };
 		F8627DD92B4126DE0069C736 /* IndustrialSocietyAndItsFutureText.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IndustrialSocietyAndItsFutureText.txt; path = IndustrialSocietyAndItsFutureQuotes/IndustrialSocietyAndItsFutureText.txt; sourceTree = SOURCE_ROOT; };
 		F8627DDC2B4127180069C736 /* IndustrialSocietyAndItsFutureText.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IndustrialSocietyAndItsFutureText.txt; path = IndustrialSocietyAndItsFutureQuotes/IndustrialSocietyAndItsFutureText.txt; sourceTree = SOURCE_ROOT; };
 		F8627DDF2B4128910069C736 /* TextParserHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextParserHelper.swift; sourceTree = "<group>"; };
@@ -126,7 +125,6 @@
 		F877EA152B40A5CD0082579B = {
 			isa = PBXGroup;
 			children = (
-				F8627DD62B4123F40069C736 /* IndustrialSocietyAndItsFutureAppWidgetExtension.entitlements */,
 				F877EA202B40A5CD0082579B /* IndustrialSocietyAndItsFutureQuotes */,
 				F8627DC22B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidget */,
 				F8627DBD2B4123AC0069C736 /* Frameworks */,

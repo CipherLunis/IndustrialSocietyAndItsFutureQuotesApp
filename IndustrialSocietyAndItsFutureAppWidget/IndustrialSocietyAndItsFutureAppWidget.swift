@@ -33,6 +33,8 @@ struct SimpleEntry: TimelineEntry {
 }
 
 struct IndustrialSocietyAndItsFutureAppWidgetEntryView : View {
+    @AppStorage("quote", store: UserDefaults(suiteName: "group.com.cipherlunis.IndustrialSocietyAndItsFutureQuotes.IndustrialSocietyAndItsFutureAppWidget")) var quote: String = ""
+    
     var entry: Provider.Entry
     
     let isIPad = UIDevice.current.userInterfaceIdiom == .pad
@@ -45,7 +47,8 @@ struct IndustrialSocietyAndItsFutureAppWidgetEntryView : View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
 //            StrokedText(strokeColor: .black, fillColor: .blue, fontSize: isIPad ? 40 : 20, fontName: "Arial", strokeWidth: 5, text: "\"\(sentenceList[Int.random(in: 0...sentenceList.count)])\"")
-            Text("\"\(sentenceList[Int.random(in: 0...sentenceList.count)])\"")
+            Text("\"\(quote)\"")
+//            Text("\"\(sentenceList[Int.random(in: 0...sentenceList.count)])\"")
                 .fontWeight(.bold)
                 .foregroundColor(widgetBGNum == 1 ? .white : widgetBGNum == 2 ? .purple : .white )
                 .font(.system(size: isIPad ? 40 : 20))
