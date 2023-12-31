@@ -28,14 +28,19 @@ struct ContentView: View {
                     .ignoresSafeArea()
                 VStack {
                     Text("\"\(quote)\"")
+                        .multilineTextAlignment(.center)
                         .fontWeight(.bold)
                         .foregroundColor(.black)
-                        .font(.system(size: isIPad ? 80 : 60))
+                        .font(.system(size: isIPad ? 80 : 40))
                         .shadow(radius: 10)
                         .minimumScaleFactor(0.5)
                         .padding(.leading)
                         .padding(.trailing)
                         .kerning(0.8)
+                    Spacer()
+                        .frame(height: geo.size.height/3.5)
+                }
+                VStack {
                     Spacer()
                     Button {
                         quoteIndex = Int.random(in: 0...sentenceList.count)
