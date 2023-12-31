@@ -11,16 +11,13 @@ import WidgetKit
 struct ContentView: View {
     
     @Binding var sentenceList: [String]
-    @Binding var quoteIndex: Int
-    @AppStorage("quote", store: UserDefaults(suiteName: "group.com.cipherlunis.IndustrialSocietyAndItsFutureQuotes.IndustrialSocietyAndItsFutureAppWidget")) var quote: String = ""
+    @State var quoteIndex = 0
+    @AppStorage("quote", store: UserDefaults(suiteName: "group.com.cipherlunis.IndustrialSocietyAndItsFutureQuotes.IndustrialSocietyAndItsFutureAppWidget")) var quote: String = "The Industrial Revolution and its consequences have been a disaster for the human race"
     
     let isIPad = UIDevice.current.userInterfaceIdiom == .pad
     
-    init(sentenceList: Binding<[String]>, quoteIndex: Binding<Int>) {
+    init(sentenceList: Binding<[String]>) {
         self._sentenceList = sentenceList
-        self._quoteIndex = .constant(Int.random(in: 0...sentenceList.count))
-        self.quote = _sentenceList[_quoteIndex.wrappedValue].wrappedValue//"Test"//_sentenceList[_quoteIndex]
-        //self.quote = sentenceList[quoteIndex] as? String
     }
     
     var body: some View {
@@ -31,7 +28,6 @@ struct ContentView: View {
                     .ignoresSafeArea()
                 VStack {
                     Text("\"\(quote)\"")
-//                    Text("\"\(sentenceList[quoteIndex])\"")
                         .fontWeight(.bold)
                         .foregroundColor(.black)
                         .font(.system(size: isIPad ? 80 : 60))
@@ -43,7 +39,9 @@ struct ContentView: View {
                     Spacer()
                     Button {
                         quoteIndex = Int.random(in: 0...sentenceList.count)
-                        WidgetCenter.shared.reloadTimelines(ofKind: "widgetextension")
+                        quote = sentenceList[quoteIndex]
+                        print("quote: \(quote)")
+                        WidgetCenter.shared.reloadAllTimelines()
                     } label: {
                         Text("New Quote")
                             .foregroundColor(.white)
@@ -62,6 +60,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     
     static var previews: some View {
-        ContentView(sentenceList: .constant(TextParserHelper.parseText()), quoteIndex: .constant(0))
+        ContentView(sentenceList: .constant(TextParserHelper.parseText()))
     }
 }

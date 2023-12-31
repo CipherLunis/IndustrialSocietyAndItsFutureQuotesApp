@@ -24,8 +24,6 @@
 		F8627DE12B4128910069C736 /* TextParserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8627DDF2B4128910069C736 /* TextParserHelper.swift */; };
 		F8627DE32B412E0D0069C736 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8627DE22B412E0D0069C736 /* Extensions.swift */; };
 		F8627DE42B412E0D0069C736 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8627DE22B412E0D0069C736 /* Extensions.swift */; };
-		F8627DE62B4136550069C736 /* StrokedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8627DE52B4136550069C736 /* StrokedText.swift */; };
-		F8627DE72B4136550069C736 /* StrokedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8627DE52B4136550069C736 /* StrokedText.swift */; };
 		F877EA222B40A5CD0082579B /* IndustrialSocietyAndItsFutureQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F877EA212B40A5CD0082579B /* IndustrialSocietyAndItsFutureQuotesApp.swift */; };
 		F877EA242B40A5CD0082579B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F877EA232B40A5CD0082579B /* ContentView.swift */; };
 		F877EA262B40A5CE0082579B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F877EA252B40A5CE0082579B /* Assets.xcassets */; };
@@ -70,7 +68,6 @@
 		F8627DDC2B4127180069C736 /* IndustrialSocietyAndItsFutureText.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IndustrialSocietyAndItsFutureText.txt; path = IndustrialSocietyAndItsFutureQuotes/IndustrialSocietyAndItsFutureText.txt; sourceTree = SOURCE_ROOT; };
 		F8627DDF2B4128910069C736 /* TextParserHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextParserHelper.swift; sourceTree = "<group>"; };
 		F8627DE22B412E0D0069C736 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		F8627DE52B4136550069C736 /* StrokedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokedText.swift; sourceTree = "<group>"; };
 		F877EA1E2B40A5CD0082579B /* IndustrialSocietyAndItsFutureQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndustrialSocietyAndItsFutureQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F877EA212B40A5CD0082579B /* IndustrialSocietyAndItsFutureQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndustrialSocietyAndItsFutureQuotesApp.swift; sourceTree = "<group>"; };
 		F877EA232B40A5CD0082579B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -150,7 +147,6 @@
 				F8627DD92B4126DE0069C736 /* IndustrialSocietyAndItsFutureText.txt */,
 				F877EA272B40A5CE0082579B /* Preview Content */,
 				F8627DE22B412E0D0069C736 /* Extensions.swift */,
-				F8627DE52B4136550069C736 /* StrokedText.swift */,
 			);
 			path = IndustrialSocietyAndItsFutureQuotes;
 			sourceTree = "<group>";
@@ -274,7 +270,6 @@
 				F8627DCD2B4123AD0069C736 /* IndustrialSocietyAndItsFutureAppWidget.intentdefinition in Sources */,
 				F8627DC42B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidgetBundle.swift in Sources */,
 				F8627DE12B4128910069C736 /* TextParserHelper.swift in Sources */,
-				F8627DE72B4136550069C736 /* StrokedText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8627DE32B412E0D0069C736 /* Extensions.swift in Sources */,
-				F8627DE62B4136550069C736 /* StrokedText.swift in Sources */,
 				F8627DE02B4128910069C736 /* TextParserHelper.swift in Sources */,
 				F877EA242B40A5CD0082579B /* ContentView.swift in Sources */,
 				F877EA222B40A5CD0082579B /* IndustrialSocietyAndItsFutureQuotesApp.swift in Sources */,

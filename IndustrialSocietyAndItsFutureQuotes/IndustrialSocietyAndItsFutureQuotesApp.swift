@@ -11,11 +11,10 @@ import SwiftUI
 struct IndustrialSocietyAndItsFutureQuotesApp: App {
     
     @State var sentenceList = TextParserHelper.parseText()
-    @State var quoteIndex = 0
     
     var body: some Scene {
         WindowGroup {
-            ContentView(sentenceList: $sentenceList, quoteIndex: $quoteIndex)
+            ContentView(sentenceList: $sentenceList)
         }
     }
 }

@@ -33,7 +33,7 @@ struct SimpleEntry: TimelineEntry {
 }
 
 struct IndustrialSocietyAndItsFutureAppWidgetEntryView : View {
-    @AppStorage("quote", store: UserDefaults(suiteName: "group.com.cipherlunis.IndustrialSocietyAndItsFutureQuotes.IndustrialSocietyAndItsFutureAppWidget")) var quote: String = ""
+    @AppStorage("quote", store: UserDefaults(suiteName: "group.com.cipherlunis.IndustrialSocietyAndItsFutureQuotes.IndustrialSocietyAndItsFutureAppWidget")) var quote: String = "The Industrial Revolution and its consequences have been a disaster for the human race"
     
     var entry: Provider.Entry
     
@@ -46,11 +46,9 @@ struct IndustrialSocietyAndItsFutureAppWidgetEntryView : View {
             Image("WidgetBG\(widgetBGNum)")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-//            StrokedText(strokeColor: .black, fillColor: .blue, fontSize: isIPad ? 40 : 20, fontName: "Arial", strokeWidth: 5, text: "\"\(sentenceList[Int.random(in: 0...sentenceList.count)])\"")
             Text("\"\(quote)\"")
-//            Text("\"\(sentenceList[Int.random(in: 0...sentenceList.count)])\"")
                 .fontWeight(.bold)
-                .foregroundColor(widgetBGNum == 1 ? .white : widgetBGNum == 2 ? .purple : .white )
+                .foregroundColor(widgetBGNum == 1 || widgetBGNum == 3 ? .white : .black )
                 .font(.system(size: isIPad ? 40 : 20))
                 .shadow(radius: 10)
                 .minimumScaleFactor(0.5)
