@@ -303,7 +303,7 @@
 				DEVELOPMENT_TEAM = XAU9475CXA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IndustrialSocietyAndItsFutureAppWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = IndustrialSocietyAndItsFutureAppWidget;
+				INFOPLIST_KEY_CFBundleDisplayName = "Industrial Society and Its Future Quotes";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -331,7 +331,7 @@
 				DEVELOPMENT_TEAM = XAU9475CXA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IndustrialSocietyAndItsFutureAppWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = IndustrialSocietyAndItsFutureAppWidget;
+				INFOPLIST_KEY_CFBundleDisplayName = "Industrial Society and Its Future Quotes";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,6 +475,7 @@
 				DEVELOPMENT_TEAM = XAU9475CXA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Industrial Society and Its Future Quotes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -506,6 +507,7 @@
 				DEVELOPMENT_TEAM = XAU9475CXA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Industrial Society and Its Future Quotes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
