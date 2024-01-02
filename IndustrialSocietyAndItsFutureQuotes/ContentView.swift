@@ -52,6 +52,7 @@ struct ContentView: View {
                             .foregroundColor(.white)
                             .fontWeight(.semibold)
                             .font(.system(size: isIPad ? 40 : 20))
+                            .frame(width: geo.size.width/1.2, height: geo.size.height/16)
                     }
                     .frame(width: geo.size.width/1.2, height: geo.size.height/16)
                     .background(.blue)
