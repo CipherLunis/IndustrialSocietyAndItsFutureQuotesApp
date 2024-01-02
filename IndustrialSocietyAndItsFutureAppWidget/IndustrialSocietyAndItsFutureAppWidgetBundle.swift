@@ -12,6 +12,5 @@ import SwiftUI
 struct IndustrialSocietyAndItsFutureAppWidgetBundle: WidgetBundle {
     var body: some Widget {
         IndustrialSocietyAndItsFutureAppWidget()
-        IndustrialSocietyAndItsFutureAppWidgetLiveActivity()
     }
 }

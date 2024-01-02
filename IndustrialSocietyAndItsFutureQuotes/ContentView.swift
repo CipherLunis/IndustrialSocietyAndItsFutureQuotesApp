@@ -43,7 +43,7 @@ struct ContentView: View {
                 VStack {
                     Spacer()
                     Button {
-                        quoteIndex = Int.random(in: 0...sentenceList.count)
+                        quoteIndex = Int.random(in: 0..<sentenceList.count)
                         quote = sentenceList[quoteIndex]
                         print("quote: \(quote)")
                         WidgetCenter.shared.reloadAllTimelines()

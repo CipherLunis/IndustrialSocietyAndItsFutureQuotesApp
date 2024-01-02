@@ -48,7 +48,7 @@ struct IndustrialSocietyAndItsFutureAppWidgetEntryView : View {
                 .aspectRatio(contentMode: .fill)
             Text("\"\(quote)\"")
                 .fontWeight(.bold)
-                .foregroundColor(widgetBGNum == 1 || widgetBGNum == 3 ? .white : .black )
+                .foregroundColor(.white)
                 .font(.system(size: isIPad ? 40 : 20))
                 .shadow(radius: 10)
                 .minimumScaleFactor(0.5)

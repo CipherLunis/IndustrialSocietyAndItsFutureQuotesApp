@@ -10,7 +10,6 @@
 		F8627DBF2B4123AC0069C736 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8627DBE2B4123AC0069C736 /* WidgetKit.framework */; };
 		F8627DC12B4123AC0069C736 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8627DC02B4123AC0069C736 /* SwiftUI.framework */; };
 		F8627DC42B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8627DC32B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidgetBundle.swift */; };
-		F8627DC62B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8627DC52B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidgetLiveActivity.swift */; };
 		F8627DC82B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8627DC72B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidget.swift */; };
 		F8627DCB2B4123AD0069C736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8627DCA2B4123AD0069C736 /* Assets.xcassets */; };
 		F8627DCD2B4123AD0069C736 /* IndustrialSocietyAndItsFutureAppWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F8627DC92B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidget.intentdefinition */; };
@@ -59,7 +58,6 @@
 		F8627DBE2B4123AC0069C736 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		F8627DC02B4123AC0069C736 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		F8627DC32B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndustrialSocietyAndItsFutureAppWidgetBundle.swift; sourceTree = "<group>"; };
-		F8627DC52B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndustrialSocietyAndItsFutureAppWidgetLiveActivity.swift; sourceTree = "<group>"; };
 		F8627DC72B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndustrialSocietyAndItsFutureAppWidget.swift; sourceTree = "<group>"; };
 		F8627DC92B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = IndustrialSocietyAndItsFutureAppWidget.intentdefinition; sourceTree = "<group>"; };
 		F8627DCA2B4123AD0069C736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 				F8627DDC2B4127180069C736 /* IndustrialSocietyAndItsFutureText.txt */,
 				F8627DDF2B4128910069C736 /* TextParserHelper.swift */,
 				F8627DC32B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidgetBundle.swift */,
-				F8627DC52B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidgetLiveActivity.swift */,
 				F8627DC72B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidget.swift */,
 				F8627DC92B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidget.intentdefinition */,
 				F8627DCA2B4123AD0069C736 /* Assets.xcassets */,
@@ -264,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8627DC62B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidgetLiveActivity.swift in Sources */,
 				F8627DE42B412E0D0069C736 /* Extensions.swift in Sources */,
 				F8627DC82B4123AC0069C736 /* IndustrialSocietyAndItsFutureAppWidget.swift in Sources */,
 				F8627DCD2B4123AD0069C736 /* IndustrialSocietyAndItsFutureAppWidget.intentdefinition in Sources */,
@@ -402,7 +398,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -456,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
