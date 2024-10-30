@@ -1,6 +1,6 @@
 #  Industrial Society and Its Future Quotes App
 
-## To quote a man in log cabin!
+## To quote a man in a log cabin!
 
 |   |   |   |
 |---|---|---|
