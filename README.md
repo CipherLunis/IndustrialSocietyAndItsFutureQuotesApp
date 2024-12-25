@@ -2,9 +2,6 @@
 
 ## To quote a man in a log cabin!
 
-### Demo
-[![Industrial Society and Its Future Quotes App Video](https://img.youtube.com/vi/tSrSVUhS4kk/0.jpg)](https://www.youtube.com/watch?v=tSrSVUhS4kk)
-
 ### Screenshots
 
 |   |   |   |
